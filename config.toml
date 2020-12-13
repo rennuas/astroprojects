@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Astroprojects | Create A Great Website"
 theme = "airspace-hugo"
 # themesDir = "../.."
 # post pagination
@@ -79,21 +79,21 @@ attributes = ""
 
 ############################### widgets #################################
 
-[params.widgets]
-sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+# [params.widgets]
+# sidebar = ["taxonomy_category", "taxonomy_tags"]
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-logo_width = "150px"
+logo = "images/logo_transparent.png"
+logo_width = "45px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Astroprojects"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+mobile = "085274079467"
+email = "contact@astroprojects.xyz"
+location = "Indonesia"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -114,7 +114,7 @@ link = "contact"
 
 # google map
 [params.gmap]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -126,17 +126,17 @@ enable = true
 expire_days = 2
   
 ############################# social site ########################
-[[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+# [[params.social]]
+# icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
 
-[[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+# [[params.social]]
+# icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
 
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+# [[params.social]]
+# icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
 
 [[params.social]]
 icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -178,30 +178,30 @@ name = "Project"
 URL = "project"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 4
+# [[Languages.en.menu.main]]
+# name = "Blog"
+# URL = "blog"
+# weight = 4
 
-[[Languages.en.menu.main]]
-weight = 5
-name = "Pages"
-hasChildren = true
+# [[Languages.en.menu.main]]
+# weight = 5
+# name = "Pages"
+# hasChildren = true
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "FAQ"
+  # URL = "faq"
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Pricing"
+  # URL = "pricing"
 
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Service"
-  URL = "service"
+  # [[Languages.en.menu.main]]
+  # parent = "Pages"
+  # name = "Service"
+  # URL = "service"
   
 [[Languages.en.menu.main]]
 name = "Contact"
@@ -230,10 +230,10 @@ name = "Pricing"
 URL = "pricing"
 weight = 4
 
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
+# [[Languages.en.menu.footer]]
+# name = "FAQ"
+# URL = "faq"
+# weight = 5
 
 [[Languages.en.menu.footer]]
 name = "Contact"

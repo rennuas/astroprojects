@@ -1,8 +1,8 @@
 ################################ pricing ################################
 pricing:
   enable : true
-  title : "Buat Website Anda"
-  description : "Pilih paket dan dapat website dengan kualitas terbaik" 
+  title : "Segera Buat Website Anda"
+  description : "Pilih paket dan dapatkan website dengan kualitas terbaik" 
   pricing_table:
     # pricing table loop
     - name : "Basic"

@@ -40,22 +40,22 @@ featured_service:
 service:
   enable : true
   title : "Layanan Kami"
-  description : "Kami dengan senang hati melayani kebutuhan mengenai website. Mulai dari desain hingga siap untuk digunakan"
+  description : "Bagaimanapun kompleks atau kecilnya kebutuhan anda, kami akan memastikan bahwa perkerjaan diselesaikan secara profesional"
   service_item:
     # service item loop
-    - icon : ion-android-create #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Web Design
-      content: "Desain website sesuai yang anda inginkan"
+      content: "Kami mendesain website dengan gaya menarik dan menyesuaikan dengan selera yang anda inginkan"
 
     # service item loop
     - icon : ion-ios-flask #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Web Development
-      content: "Bangun website dengan tema-tema menarik yang kami miliki"
+      content: "Kami membangun web untuk kebutuhan-kebutuhan beragam mulai dari web berita, company profile, dll"
 
     # service item loop
-    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Web Theme
-      content: "Kami menyediakan tema premium untuk website anda"
+    - icon : ion-bag #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: E-commerce Development
+      content: "Kami membangun toko online untuk menyelesaikan kebutuhan transaksi jual beli anda agar lebih efisien"
       
 ############################# call to action #################################
 cta:

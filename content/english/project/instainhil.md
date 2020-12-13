@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
+title: "Instainhil"
 description: "this is meta description"
 draft: false
-image : "images/portfolio/work1.jpg"
+image : "images/portfolio/instainhil.png"
 bg_image: "images/featue-bg.jpg"
-category: "UI/UX Design"
+category: "Web Information"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

@@ -3,11 +3,11 @@ banner:
   enable : true
   bg_image : "images/header.jpg"
   bg_overlay : true
-  title : "Temukan Solusi Mengenai </br> Website Anda"
-  content : "Kami senang bisa membantu anda menemukan solusi mengenai website atau aplikasi yang anda inginkan"
+  title : "Build awesome website </br> for your business"
+  content : "Tingkatkan potensi bisnis kamu dengan layanan yang kami tawarkan"
   button:
     enable : true
-    label : "Jelajahi Proyek Kami"
+    label : "Pesan Sekarang"
     link : "project"
 
 ############################# About #################################
@@ -66,8 +66,8 @@ portfolio:
 cta:
   enable : true
   bg_image : "images/CTA-bg.jpg"
-  title : "Bicarakan Dengan Kami"
-  content : "Kami akan membantu anda menemukan solusi mengenai website yang anda inginkan"
+  title : "Ada Yang Ingin Kamu Bicarakan? </br> Mari Bicarakan Mengenai Kebutuhanmu"
+  # content : "Temukan solusi atas kebutuhanmu"
   button:
     enable : true
     label : "Hubungi Kami"
