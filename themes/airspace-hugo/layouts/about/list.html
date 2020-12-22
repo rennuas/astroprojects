@@ -69,6 +69,7 @@
 {{ end }}
 {{ end }}
 
+{{ if $data.about.mission_testimonial.enable }}
 <section class="testimonial section-sm">
   <div class="container">
     <div class="row">
@@ -115,6 +116,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 
 <!-- Call to action -->
 {{ if $data.about.cta.enable }}

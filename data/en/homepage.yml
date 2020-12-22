@@ -1,7 +1,7 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/header.jpg"
+  bg_image : "images/code-bg.jpg"
   bg_overlay : true
   title : "Build awesome website </br> for your business"
   content : "Tingkatkan potensi bisnis kamu dengan layanan yang kami tawarkan"
@@ -65,9 +65,9 @@ portfolio:
 ############################ call to action ###########################
 cta:
   enable : true
-  bg_image : "images/CTA-bg.jpg"
-  title : "Ada Yang Ingin Kamu Bicarakan? </br> Mari Bicarakan Mengenai Kebutuhanmu"
-  # content : "Temukan solusi atas kebutuhanmu"
+  bg_image : "images/design-bg.jpg"
+  title : "Punya ide untuk dikembangkan?"
+  content : "Sampaikan idemu dan kami akan mengeksekusinya secara profesional"
   button:
     enable : true
     label : "Hubungi Kami"

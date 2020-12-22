@@ -86,7 +86,7 @@
                 <input type="radio" name="shuffle-filter" value="all" checked="checked">{{ i18n "all" }}
               </label>
               {{ $categories := slice }}
-              {{ range (where .Site.RegularPages "Type" "portfolio") }}
+              {{ range (where .Site.RegularPages "Type" "project") }}
               {{ $categories = $categories | append .Params.Category }}
               {{ end }}
               {{ range ( $categories | uniq ) }}
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="row shuffle-wrapper">
-            {{ range (where .Site.RegularPages "Type" "portfolio") }}
+            {{ range (where .Site.RegularPages "Type" "project") }}
             <div class="col-md-4 portfolio-item shuffle-item" data-groups="[&quot;{{ .Params.Category | urlize }}&quot;]">
               <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
               <div class="portfolio-hover">

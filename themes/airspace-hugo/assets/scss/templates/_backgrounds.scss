@@ -11,6 +11,7 @@
 .bg-2 {
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 
 	@include tablet {
 		background-attachment: scroll;

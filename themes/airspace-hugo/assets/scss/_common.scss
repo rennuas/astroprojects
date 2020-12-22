@@ -8,7 +8,7 @@ iframe {
   border: 0;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
@@ -609,10 +609,15 @@ input[type="tel"] {
   display: none;
 }
 
-.sticky-top{
+.sticky-top {
   position: sticky;
   top: 0;
+
   @include desktop {
     position: static;
   }
+}
+
+.text-hg {
+  color: $primary-color;
 }
