@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
+baseURL = "https://astroprojects.onrender.com"
 title = "Astroprojects | Create A Great Website"
 theme = "airspace-hugo"
 # themesDir = "../.."
